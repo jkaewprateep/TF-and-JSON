@@ -34,6 +34,13 @@ Simple Tensorflow for sequential data learning and prediction
 </br>
 </br>
 
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/image_dataset.png"> </br>
+    <b> Data extraction features dataset </b> </br>
+</p>
+</br>
+</br>
+
 [Create image dataset]( https://github.com/jkaewprateep/json_data_set/blob/main/README.md )</br>
 [Simple Tensorflow for sequential data learning and prediction]( https://github.com/jkaewprateep/Simple_Tensorflow_sequentialdata/blob/main/README.md )</br>
 [Consume HTTP rest services with a simple method with Alpaca RESTFul services API]( https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/README.md )</br>
