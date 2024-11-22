@@ -40,10 +40,13 @@ JSON communication message with Tensorflow
 
 <p align="center" width="100%">
     <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/TF_traindataset_valueconversion.png"> </br>
-    <b> Tensorflow training dataset creation, binary conversion, JSON phasing and data extraction </b> </br>
+    <b> Tensorflow training dataset creation, binary conversion, JSON phasing, and data extraction </b> </br>
 </p>
 </br>
 </br>
+
+🐑💬 ➰ Even image transfer in data communication, string or array integer values for training dataset application in Financial banking, Insurance, IT & Telecommunication, and Government business. </br>
+🦁💬 Image information can be transferred with signature or binary number format for data verification because they are logging, reverse transformable, and replace or modify use more effort for speed communication is a hardship skill. </br>
 
 <p align="center" width="100%">
     <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/image_dataset.png"> </br>
