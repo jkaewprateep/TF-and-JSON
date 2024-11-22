@@ -12,3 +12,10 @@ Simple Tensorflow for sequential data learning and prediction
 </p>
 </br>
 </br>
+
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/virtual_environment_01.png"> </br>
+    <b> Anaconda virtual environment </b> </br>
+</p>
+</br>
+</br>
