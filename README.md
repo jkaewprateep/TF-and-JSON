@@ -117,7 +117,7 @@ example_binary = tf.io.decode_json_example(data_string)
 example_phase = tf.io.parse_example(
 	serialized=[example_binary.numpy()],
 	features = { 	"1": tf.io.FixedLenFeature(shape=[ 4 * 1 * 1 ], dtype=tf.int64),
-					"2": tf.io.FixedLenFeature(shape=[ 4 * 1 * 1 ], dtype=tf.int64)
+			"2": tf.io.FixedLenFeature(shape=[ 4 * 1 * 1 ], dtype=tf.int64)
 				});
                 
 print( "Create binary data features." );
