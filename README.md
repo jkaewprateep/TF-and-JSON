@@ -36,6 +36,7 @@ JSON communication message with Tensorflow
 </br>
 
 🧸💬 Binary conversion format will support many remote device machines because they can directly apply without processing or less processing format ( 👨🏻‍🏫💬 Less processing format that is the rule ) and you can perform encryption overhead. </br>
+🐐💬 You may refer to an example for remote device communication such as a television remote controller or player [example]( https://github.com/jkaewprateep/Remote_devices/blob/main/README.md ) </br>
 
 <p align="center" width="100%">
     <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/TF_traindataset_valueconversion.png"> </br>
