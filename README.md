@@ -24,7 +24,8 @@ JSON communication message with Tensorflow
 </br>
 </br>
 
-🦁💬 A virtual environment is identified by its access level to data sources and executable on an object. The level access authority can activate and execute on the target destination, or they can perform restore and tracking. Still, the results from execution on the primary are not a virtual environment.
+🦁💬 A virtual environment is identified by its access level to data sources and executable on an object. The level access authority can activate and execute on the target destination, or they can perform restore and tracking. Still, the results from execution on the primary are not a virtual environment. </br>
+🦭💬 They are utility help for managing data information and backup restore with the ability to perform tasks like installing of multiple configuration sets on the same OS and data resources. </br>
 
 <p align="center" width="100%">
     <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/directory_access.png"> </br>
