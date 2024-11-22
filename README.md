@@ -35,3 +35,11 @@ Simple Tensorflow for sequential data learning and prediction
 </br>
 
 [Create image dataset]( https://github.com/jkaewprateep/json_data_set/blob/main/README.md )</br>
+
+---
+
+<p align="center" width="100%">
+    <img width="30%" src="https://github.com/jkaewprateep/advanced_mysql_topics_notes/blob/main/custom_dataset.png">
+    <img width="30%" src="https://github.com/jkaewprateep/advanced_mysql_topics_notes/blob/main/custom_dataset_2.png"> </br>
+    <b> 🥺💬 รับจ้างเขียน functions </b> </br>
+</p>
