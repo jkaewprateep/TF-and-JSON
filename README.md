@@ -136,9 +136,7 @@ print( os.linesep );
 print( "Sample of Numpy array converstaion." );
 print( data[0][1]._numpy() );
 
-print( os.linesep );print( os.linesep );
-print( os.linesep );print( os.linesep );print( os.linesep );print( os.linesep );print( os.linesep );print( os.linesep );
-
+print( os.linesep );
 ```
 
 ---
