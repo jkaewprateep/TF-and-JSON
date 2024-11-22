@@ -74,7 +74,7 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 url = "https://paper-api.alpaca.markets/v2/account";
 
-headers = { 'content-type': 'application/json', "APCA-API-KEY-ID": "**********", "APCA-API-SECRET-KEY": "*********************", 
+headers = { 'content-type': 'application/json', "APCA-API-KEY-ID": "**********", "APCA-API-SECRET-KEY": "*************", 
     "Accept": "*/*", "User-Agent": "🐑💬 ➰ DekDee" };
 
 response = requests.get( url, headers=headers, verify = False );
