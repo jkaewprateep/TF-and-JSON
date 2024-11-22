@@ -59,6 +59,88 @@ JSON communication message with Tensorflow
 [Simple Tensorflow for sequential data learning and prediction]( https://github.com/jkaewprateep/Simple_Tensorflow_sequentialdata/blob/main/README.md )</br>
 [Consume HTTP rest services with a simple method with Alpaca RESTFul services API]( https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/README.md )</br>
 
+## Example codes ##
+
+```
+import requests;
+import json;
+import tensorflow as tf;
+#
+from google.protobuf import json_format;
+import logging, os
+logging.disable(logging.WARNING)
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+
+
+url = "https://paper-api.alpaca.markets/v2/account";
+
+headers = { 'content-type': 'application/json', "APCA-API-KEY-ID": "**********", "APCA-API-SECRET-KEY": "*********************", 
+    "Accept": "*/*", "User-Agent": "🐑💬 ➰ DekDee" };
+
+response = requests.get( url, headers=headers, verify = False );
+data = json.loads(response.content)
+# print(data);
+
+data_features_1 = [ data["options_trading_level"], data["buying_power"], data["cash"], data["sma"] ];
+data_features_1 = [ int(x) for x in data_features_1 ];
+print( "Create data features." );
+print( data_features_1 );
+print( os.linesep );
+data_features_2 = [ data["options_trading_level"], data["buying_power"], data["cash"], data["sma"] ];
+data_features_2 = [ int(x) for x in data_features_2 ];
+# print( data_features_2 );
+
+#
+example = tf.train.Example(
+	features=tf.train.Features(
+		feature={
+			"1": tf.train.Feature(
+			
+				int64_list=tf.train.Int64List(
+					value=tf.constant( data_features_1, shape=( 4 * 1 * 1 ) ).numpy() )
+					
+					),
+			"2": tf.train.Feature(
+			
+				int64_list=tf.train.Int64List(
+					value=tf.constant( data_features_2, shape=( 4 * 1 * 1 ) ).numpy() )
+					
+					)		
+			}));
+#
+
+
+data_string = json_format.MessageToJson(example)
+example_binary = tf.io.decode_json_example(data_string)
+
+
+example_phase = tf.io.parse_example(
+	serialized=[example_binary.numpy()],
+	features = { 	"1": tf.io.FixedLenFeature(shape=[ 4 * 1 * 1 ], dtype=tf.int64),
+					"2": tf.io.FixedLenFeature(shape=[ 4 * 1 * 1 ], dtype=tf.int64)
+				});
+                
+print( "Create binary data features." );
+print( example_binary );
+print( os.linesep );
+
+data = list(example_phase.items())
+label = [ int(x[0]) for x in data ]
+
+print( "Sample of data extraction." );
+print( data );
+print( os.linesep );
+print( "Sample of label extraction." );
+print( label );
+print( os.linesep );
+print( "Sample of Numpy array converstaion." );
+print( data[0][1]._numpy() );
+
+print( os.linesep );print( os.linesep );
+print( os.linesep );print( os.linesep );print( os.linesep );print( os.linesep );print( os.linesep );print( os.linesep );
+
+```
+
 ---
 
 <p align="center" width="100%">
