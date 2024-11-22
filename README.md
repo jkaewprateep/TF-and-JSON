@@ -19,3 +19,17 @@ Simple Tensorflow for sequential data learning and prediction
 </p>
 </br>
 </br>
+
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/directory_access.png"> </br>
+    <b> Directory access </b> </br>
+</p>
+</br>
+</br>
+
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/TF_traindataset_valueconversion.png"> </br>
+    <b> Tensorflow training dataset creation, binary conversion, JSON phasing and data extraction </b> </br>
+</p>
+</br>
+</br>
