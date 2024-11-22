@@ -1,6 +1,9 @@
 # TF-and-JSON
 JSON communication message with Tensorflow
 
+🧸💬 Development environment preparation, Python virtual environment with bash command integration. In development environments, you may have requirements to develop the same library with multiple versions in the version control step of CI/CD software development or need to perform development with different Kernel and cloud accounts to help with virtual environment setup. </br>
+🐑💬 ➰ For network communications binary message is ready for pop message integration or you can perform the same task using local library formats. </br>
+
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/tensorflow_01.png">
     <img width="22.26%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/kid_32.jpg">
