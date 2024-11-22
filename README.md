@@ -13,7 +13,8 @@ JSON communication message with Tensorflow
 </br>
 </br>
 
-🐐💬 Anaconda console for virtual environment management, integration with online templates, and local virtual environment or perform by activated virtual in Python or parallel desktop in multiple development platforms. </br>
+🐐💬 Anaconda console for virtual environment management, integration with online templates, and local virtual environment or performed by activated virtual in Python or parallel desktop in multiple development platforms. </br>
+🦭💬 In some machine learning remote distribution will only receive communication in binary format or require installed Tensorflow at the destination, there are Tensorflow lite, networks conversion, or direct communication using IC circuits. </br>
 
 <p align="center" width="100%">
     <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/virtual_environment_01.png"> </br>
