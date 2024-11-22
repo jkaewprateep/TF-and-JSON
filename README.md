@@ -39,10 +39,11 @@ JSON communication message with Tensorflow
 🐐💬 You may refer to an example for remote device communication such as a television remote controller or player [example]( https://github.com/jkaewprateep/Remote_devices/blob/main/README.md ) </br>
 
 <p align="center" width="100%">
-    <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/TF_traindataset_valueconversion.png"> </br>
+    <img width="60%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/TF_traindataset_valueconversion.png">
+    <img width="24%" src="https://github.com/jkaewprateep/TF-and-JSON/blob/main/Movement_detection.gif"> </br>
     <b> Tensorflow training dataset creation, binary conversion, JSON phasing, and data extraction </b> </br>
 </p>
-</br>
+</br> 
 </br>
 
 🐑💬 ➰ Even image transfer in data communication, string or array integer values for training dataset application in Financial banking, Insurance, IT & Telecommunication, and Government business. </br>
